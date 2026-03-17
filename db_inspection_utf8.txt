@@ -1,0 +1,42 @@
+Tables in finance_app.db:
+
+- Table: users
+  Columns:
+    - id (INTEGER)
+    - username (TEXT)
+    - password (TEXT)
+  Row count: 5
+  Sample Data:
+    (1, '21', '2fca346db656187102ce806ac732e06a62df0dbb2829e511a770556d398e1a6e')
+    (2, '100', '7a5df5ffa0dec2228d90b8d0a0f1b0767b748b0a41314c123075b8289e4e053f')
+    (3, '1', '6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b')
+    (4, 'testuser', '8ecd67dceb90a898b1f94bddf570ce1c23629cd328140d81f1e02e43d42eb44e')
+    (5, 'password123', 'ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f')
+
+- Table: transactions
+  Columns:
+    - id (INTEGER)
+    - user_id (INTEGER)
+    - type (TEXT)
+    - category (TEXT)
+    - amount (REAL)
+    - date (TEXT)
+    - description (TEXT)
+  Row count: 8
+  Sample Data:
+    (1, 2, 'expense', 'salary', 90000.0, '2026-03-14', 'from freelance')
+    (2, 2, 'expense', '1', 1.0, '2026-03-14', 'salaly')
+    (3, 2, 'income', '39', 1111.0, '2026-03-14', 'ccc')
+    (4, 2, 'income', 'gym', 200.0, '2026-03-14', 'ok')
+    (5, 2, 'income', 'salary', 500000.0, '2026-03-14', 'ok')
+
+- Table: budgets
+  Columns:
+    - id (INTEGER)
+    - user_id (INTEGER)
+    - category (TEXT)
+    - amount (REAL)
+    - month (TEXT)
+  Row count: 1
+  Sample Data:
+    (1, 1, 'Food', 500.0, '2023-10')

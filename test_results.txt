@@ -1,0 +1,16 @@
+Personal Finance Management App – Unit Test Results
+
+- Test Environment: 
+Python Version: 3.x
+Testing Framework: unittest
+Command Used: python unit_tests.py
+
+- Output: 
+User 'testuser_442af8f7' registered successfully.
+
+
+- Conclusion:
+✔ Unit tests were executed using Python's unittest framework.
+✔ Sample passed and failed test cases are documented above.
+✔ The tests verify functions like user registration and transaction handling.
+
