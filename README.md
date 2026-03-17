@@ -1,46 +1,41 @@
 # Personal Finance Management Application
 
-## 👤 Author: SK Mimraj
-### Project ID: UY6758GH
-
 ---
 
 ## 📝 Overview
-The Personal Finance Management Application is a Python-based command-line tool that enables users to efficiently track and manage personal finances. The application supports secure user authentication, income and expense tracking, category-based budgeting with alerts, and automated financial reporting. Data is securely stored using SQLite with backup and restore support.
 
+The **Personal Finance Management Application** is a Python-based command-line tool that enables users to efficiently track and manage personal finances. The application supports secure user authentication, income and expense tracking, category-based budgeting with alerts, and automated financial reporting. Data is securely stored using SQLite with backup and restore support.
 ---
-✨ Features:
 
-User Authentication – Secure registration and login system
+## ✨ Features
 
-Transaction Management – Add, view, update, and delete income/expense records
-
-Budget Tracking – Set monthly budgets with automatic limit alerts
-
-Financial Reports – Generate monthly and yearly summaries of income, expenses, and savings
-
-Data Persistence – SQLite database with backup and restore functionality
-
-Unit Testing – Automated tests for authentication, transactions, budgets, and reports
+* **User Authentication** – Secure registration and login
+* **Transaction Management** – Add, view, update, and delete records
+* **Budget Tracking** – Set monthly budgets with real-time alerts
+* **Financial Reports** – Monthly and yearly summaries of income, expenses, and savings
+* **Data Persistence** – SQLite database with backup and restore
+* **Unit Testing** – Automated testing for core modules
 
 ---
 
-Technology Stack:
+## 🛠️ Technology Stack
 
-Language: Python 3.8+
-
-Database: SQLite3
-
-Libraries: sqlite3, hashlib, getpass, datetime, unittest
+* **Language:** Python 3.8+
+* **Database:** SQLite3
+* **Libraries:** `sqlite3`, `hashlib`, `getpass`, `datetime`, `unittest`
 
 ---
 
 ## ⚙️ Installation
 
 1. Install Python 3.x
-2. Clone/download this repository
-3. Navigate to the directory
-4. Run the app: python main.py
+2. Clone or download this repository
+3. Navigate to the project directory
+4. Run the application:
+
+```bash
+python main.py
+```
 
 ---
 
@@ -72,23 +67,32 @@ Once logged in, you can choose from the following menu options:
 
 ---
 
-Future Enhancements:
 
-GUI (Tkinter or Web dashboard)
+## 🚧 Future Enhancements
 
-Export reports (PDF/CSV)
-
-Cloud database sync
-
-AI spending insights
+* GUI (Tkinter or Web dashboard)
+* Export reports (PDF/CSV)
+* Cloud synchronization
+* AI-based spending insights
 
 ---
 
-💻 Author
-SK Mimraj - Passionate Python Developer & AI Enthusiast
+## 👤 Author
 
-Support
-If you like this project, give it a star ⭐
+**SK Mimraj**
+Python Developer | AI Enthusiast
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider giving it a **star ⭐** 
+
+
+
+
+
+
 
 
 
