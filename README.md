@@ -76,21 +76,21 @@ Once logged in, you can choose from the following menu options:
 * Cloud synchronization
 * AI-based spending insights
 
+
 ---
 
+## 👤 Author
 
-## 👤 Author 👨‍💻 Author
+SK Mimraj
+Python Developer | AI Enthusiast  
 
-**SK Mimraj**
-Python Developer | AI Enthusiast
-📧 skmimraj791@gmail.com 
+📧 Email: skmimraj791@gmail.com
 
 ---
 
 ## ⭐ Support
 
 If you like this project, give it a star ⭐
-
 
 
 
